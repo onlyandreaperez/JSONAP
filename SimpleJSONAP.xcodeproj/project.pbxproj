@@ -14,6 +14,7 @@
 		73DF11E1222D6D1D00718F32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73DF11E0222D6D1D00718F32 /* Assets.xcassets */; };
 		73DF11E4222D6D1D00718F32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73DF11E2222D6D1D00718F32 /* LaunchScreen.storyboard */; };
 		73DF11EF222D6D1D00718F32 /* SimpleJSONAPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DF11EE222D6D1D00718F32 /* SimpleJSONAPTests.swift */; };
+		73DF11FA222D6DC400718F32 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DF11F9222D6DC400718F32 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		73DF11EA222D6D1D00718F32 /* SimpleJSONAPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleJSONAPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73DF11EE222D6D1D00718F32 /* SimpleJSONAPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleJSONAPTests.swift; sourceTree = "<group>"; };
 		73DF11F0222D6D1D00718F32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73DF11F9222D6DC400718F32 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				73DF11E0222D6D1D00718F32 /* Assets.xcassets */,
 				73DF11E2222D6D1D00718F32 /* LaunchScreen.storyboard */,
 				73DF11E5222D6D1D00718F32 /* Info.plist */,
+				73DF11F9222D6DC400718F32 /* DataManager.swift */,
 			);
 			path = SimpleJSONAP;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73DF11DC222D6D1700718F32 /* DetailViewController.swift in Sources */,
+				73DF11FA222D6DC400718F32 /* DataManager.swift in Sources */,
 				73DF11DA222D6D1700718F32 /* MasterViewController.swift in Sources */,
 				73DF11D8222D6D1700718F32 /* AppDelegate.swift in Sources */,
 			);
